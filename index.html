@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Capzul</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <div class="image-container">
+                <img src="New folder/143430-OTL0L8-567.jpg" alt="App Preview" class="app-preview">
+            </div>
+            <p class="description">Social media shared today, tomorrow or by location.</p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="form-container">
+                <div class="logo">
+                    <img src="New folder/logo1.png" alt="Logo">
+                    <h1>Capzul</h1>
+                </div>
+                <h2>Create account</h2>
+                <p class="subtext">For business, band, or celebrity.</p>
+
+                <form id="signup-form">
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                            <div class="error-message" id="first-name-error"></div>
+                        </div>
+                        <div class="input-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                            <div class="error-message" id="last-name-error"></div>
+                        </div>
+                        <div class="input-group">
+                            <label for="email-phone">Email or Phone Number</label>
+                            <input type="text" id="email-phone" name="email-phone" required>
+                            <div class="error-message" id="email-phone-error"></div>
+                        </div>
+                        <div class="input-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" name="dob" required>
+                            <div class="error-message" id="dob-error"></div>
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                            <div class="error-message" id="password-error"></div>
+                        </div>
+                        <div class="input-group">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                            <div class="error-message" id="confirm-password-error"></div>
+                        </div>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="remember-me" name="remember-me">
+                        <label for="remember-me">Remember me</label>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to all the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></label>
+                        <div class="error-message" id="terms-error"></div>
+                    </div>
+                    <div class="button-container">
+                    <button type="submit" class="btn btn-primary">Create Account</button>
+
+
+                    <button type="button" class="btn btn-google">
+                        <img src="New folder/7123025_logo_google_g_icon.png" alt="Google Icon" class="google-icon"> Sign in with Google </button>
+                </div>
+
+                    <p class="login-link">Don't have an account? <a href="#">Log in</a></p>
+                </form>
+
+                <div class="store-buttons">
+                    <a href="https://play.google.com" class="store-button">
+                        <img src="New folder/Google_Play-Badge-Logo.png" alt="Google Play">
+                    </a>
+                    <a href="https://appstore.com" class="store-button">
+                        <img src="New folder/App_Store_(iOS)-Badge-Logo.png" alt="App Store">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
