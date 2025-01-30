@@ -244,9 +244,4 @@ input[type="date"]::-webkit-datetime-edit-text,
 .forgot-password:hover {
   text-decoration: underline;
 }
-.error-message {
-    color: red;
-    font-size: 0.875rem;
-    margin-top: 5px;
-    display: none; 
-}
+
